@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="estilos/estilo_pagina_cadastro.css">
+</head>
+
+<body>
+    <section>
+        <div class="bloco">
+            <div class="botao">
+                <button id="botao_home">
+                    <a href="home.html">Voltar</a>
+                </button>
+            </div>
+            <div class="container" id="container">
+                <div>
+                    <img src="https://modavo.store/wp-content/uploads/2022/06/modavo.png" alt="" width="400px">
+                    <p class="paragrafo"><b>CPaaS Platform</b></p>
+                </div>
+                <form action="" method="get" id="form">
+                    <div>
+                        <p>Cadastre-se abaixo:</p>
+                    </div>
+                    <div>
+                        <input 
+                        type="text" 
+                        placeholder="Digite seu nome" 
+                        name="txt_nome" 
+                        class="input requerido"
+                        oninput="validarNome()" 
+                        id="txt_nome" 
+                        pattern="^[a-zA-Z].{16,60}$" 
+                        required>
+                        <p class="p-atributos">(entre 16 e 60 caracteres)</p>
+                    </div>
+                    <div>
+                        <input 
+                        type="text" 
+                        placeholder="Digite um login" 
+                        name="c_login" id="c_login"
+                        class="input requerido" 
+                        oninput="validarLogin()" 
+                        pattern="^[a-zA-Z]{6}$" 
+                        required>
+                        <p class="p-atributos">(6 caracteres alfabéticos)</p>
+                    </div>
+                    <div>
+                        <input 
+                        type="password" 
+                        placeholder="Digite uma senha" 
+                        name="n_senha" id="n_senha"
+                        class="input requerido" 
+                        oninput="validarSenha()" 
+                        pattern="^[a-zA-Z]{8}$" 
+                        required>
+                        <p class="p-atributos">(8 caracteres alfabéticos)</p>
+                    </div>
+                    <div>
+                        <input 
+                        type="password" 
+                        placeholder="Repita a senha" 
+                        name="c_senha" id="c_senha"
+                        class="input requerido"   
+                        pattern="^[a-zA-Z]{8}$" 
+                        required>
+                        <p class="p-atributos">(deve ser igual a senha)</p>
+                    </div>
+                    <div>
+                        <input type="submit" value="Cadastrar" class="botoes" id="submit_cadastro">
+                    </div>
+                    <div id="res" color="red">
+                    </div>
+                </form>
+                <script src="script.js"></script>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>

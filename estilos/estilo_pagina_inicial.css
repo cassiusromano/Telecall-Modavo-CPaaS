@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 1347px;
+    height:500px;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    padding:25px;
+    box-shadow: 0px 1px 20px -15px ; 
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+.navigator{
+    display: flex;
+    gap: 16px;
+}
+.acesso{
+    margin-left:auto;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-items: flex-end;
+    
+}
+.btn_acesso_1{
+    width: 110px;
+    height: 35px;
+    border:0;
+    border-radius: 20px 0px;
+    background-color: none;  
+}
+.btn_acesso_1:hover{
+    font-size: 15px;
+}
+.btn_acesso_2{
+    width: 110px;
+    height: 35px;
+    border-radius: 0px 20px;
+    border: none;
+    box-shadow: 0px 1px 8px 1px rgb(231, 228, 228);
+    background-color: #2AADE5;
+}
+.btn_acesso_2:hover{
+    font-size: 15px;
+}
+button a{
+    text-decoration: none;
+}
+.a_cadastre_se{
+    background-color: #2AADE5;
+    color: white;
+}
+
+
+.botao_search{
+    color: #2AADE5;
+    border-color: #2AADE5;
+    border-radius: 10px 1px;
+    border:1px;
+    width: 80px;
+    box-shadow: 1px 1px -10px 0px #2AADE5;
+}
+.botao_search:hover{
+    background-color: #2AADE5;
+    color: white;
+}
+.section1{
+    display: flex;
+    justify-content:space-around;
+    margin: 20px;
+    height: 500px;
+}
+.titulo_1{
+    color: #2AADE5;
+    font-size: 50px;
+}
+.titulo{
+    color: #2AADE5;
+    font-size: 30px;
+}
+.text_edit{
+    color: #2AADE5;
+    font-size: 17px;
+}
+.text{
+    color: gray;
+    text-align: justify;
+}
+#campo1_section{
+    padding-top: 3rem;
+    width: 40%;
+    height: 100%;
+    align-content: center;
+    padding-left: 10px;
+}
+.botoes_section_1{
+    padding: 20px;
+    display: grid;
+    flex-wrap: wrap;
+    height: 120px;
+    margin-left: -8px;
+    padding: 5px;
+}
+.btn_teste_gratis{
+    background-color: #2AADE5;
+    width: 260px;
+    height: 45px;
+    border: none;
+    border-radius: 10px 0px;
+    box-shadow:-1px 1px 20px -8px black;
+}
+.a_btn_teste_gratis{
+    color: white;
+    font-size:25px;
+}
+
+.btn_teste_gratis:hover{
+    background-color: #b81e1e;
+    transform: scale(1.1);
+}
+.btn_fale_especialista{
+    background-color: #61CE70;
+    width: 320px;
+    height: 45px;
+    border: none;
+    border-radius: 10px 0px;
+    box-shadow:-1px 1px 20px -8px black;
+}
+.a_fale_especialista{
+    color: white;
+    font-size:25px;
+}
+.btn_fale_especialista:hover{
+    background-color: #b81e1e;
+    transform: scale(1.1);
+}
+.section_adicional{
+    height: 500px;
+}
+.container{
+    background-color: #b81e1e;
+}
+.row_section_adicional{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section2{
+    background-color: #2AADE5;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-shadow:-1px 1px 20px -8px black;
+}
+
+.text_edit1{
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.section3{
+    height: 500px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 20px;
+    height: 500px;
+}
+.section4{
+    height: 500px;
+    display: inline;
+    align-items: center;
+    padding: 10px;
+}
+
+.elementostext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.elementocolumn{
+    height: 450px;
+    width: 280px;
+    border-radius: 20px;
+}
+
+
+.section5{
+    height: 500px;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+}
+
+.section6{
+    height: 500px;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: #2AADE5;
+}
+.titulo_6{
+    font-size: 40px;
+    color: white;
+}
+.elementocolumn_6{
+    height: 300px;
+    width: 260px;
+    box-shadow: -1px 6px 15px -8px black;
+    border-radius: 20px;
+    padding:15px;
+    margin: 3px;
+    background-color: white;
+}
+footer{
+    background-color: rgb(211, 211, 211);
+    height: 40px;
+}
+
+.barra_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+.creditos{
+    display: grid;
+    justify-content: center;
+    align-items:flex-end;
+    padding-top: 10px;
+}
+
