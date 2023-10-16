@@ -1,6 +1,2 @@
 # Telecall-Modavo-CPaaS
- Versionamento do site, estou aprendendo a fazer o versionamento do site utilizando git e github.
-
-editando pelo própri github!!
-
-Testando novas funcionalidades do Git
+Esse site está sendo elaborado para a empresa Telecall com o intuito de ofertar seu produto CPaaS.
